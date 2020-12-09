@@ -1,0 +1,502 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.wrap {
+  overflow: hidden;
+}
+
+header {
+  background: white;
+  z-index: 5;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.head-p1 {
+  width: 100%;
+  color: rgb(54, 54, 54);
+  font-size: 50px;
+  letter-spacing: 2px;
+  margin: 0%;
+  font-style: oblique;
+  z-index: 3;
+  padding-left: 20px;
+}
+
+.head-p1 img {
+  width: 80px;
+  height: 80px;
+}
+
+.head-p1 p {
+  padding-left: 20px;
+}
+
+.head-list {
+  font-weight: bolder;
+  width: 70%;
+  z-index: 2;
+  padding-right: 30px;
+}
+
+.head-list ul {
+  z-index: 2;
+  list-style: none;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.head-list a  {
+  cursor: pointer;
+  color: grey;
+}
+
+main {
+  z-index: 1;
+}
+
+.sliderArea {
+  margin-bottom: 50px;
+  animation-name: fadein;
+  animation-duration: 3s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.sliderArea img {
+  margin: 0 auto;
+}
+
+.news {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.news h1 {
+  border-bottom: solid 2px rgb(68, 68, 68);
+}
+
+.news-p {
+  width: 100%;
+  height: 150px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.news-p::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.news-p::-webkit-scrollbar-track {
+  border-radius: 3px;
+  box-shadow: 0 0 4px #aaa inset;
+}
+
+.news-p::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background: grey;
+}
+
+.news-p a {
+  color: black;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: 80px auto;
+}
+
+.bar {
+  border: black solid 1px;
+  border-radius: 10px;
+}
+
+.bar:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.menu img {
+  margin: 0 20px;
+}
+
+.menu p {
+  text-align: center;
+  font-family: cursive;
+}
+
+
+/* arasi member.html */
+
+.member {
+  height: 1250px;
+  background-image: url(member-bg3.jpg);
+  background-position: bottom;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+.member h1 {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  padding: 50px 0;
+}
+
+/* drop */
+
+#category {
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.842);
+  font-size: 15px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 90%;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+#category1 {
+  animation-name: fadeleft;
+  animation-duration: 2s;
+}
+
+#category2 {
+  animation-name: faderight;
+  animation-duration: 2s;
+}
+
+@keyframes faderight {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes fadeleft {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+
+.main_menu{
+  padding-bottom: 10px;
+	display: block;
+	position: relative;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.main_menu p {
+  padding-top: 50px;
+}
+
+.sub-div1 img {
+  width: 150px;
+  height: 140px;
+}
+
+.sub-div2 {
+  flex-flow: row-reverse;
+  height: 150px;
+  padding-bottom: 10px;
+}
+
+
+.sub-div2 img {
+  width: 150px;
+}
+
+
+.main_menu:hover {
+  cursor: pointer;
+}
+
+
+.sub_menu {
+  color: rgb(255, 255, 255);
+  border-top: solid 1px rgb(63, 63, 63); 
+	padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  font-weight: lighter;
+  font-size: 18px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.sub_menu ul {
+  margin: 0%;
+  padding: 0%;
+}
+
+.sub_menu li {
+  list-style: none;
+  letter-spacing: 2px;
+}
+
+.sub-p1 {
+  margin: 0;
+}
+
+/* arasi music.html */
+
+.music {
+  background-image: url(music-bg2.jpg);
+  background-position: center;
+  background-size: 100% 3000px;
+  background-repeat: no-repeat;
+}
+
+.music h1 {
+  text-align: center;
+  padding: 30px 0;
+  color: rgb(41, 41, 41);
+  margin-bottom: 50px;
+}
+
+.music iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.music-p1 {
+  font-size: 30px;
+  font-family: cursive;
+  text-align: center;
+  padding: 50px 0;
+  margin-bottom: 100px;
+  color: rgb(29, 29, 29);
+}
+
+.best {
+  margin-bottom: 100px;
+}
+
+.memo {
+  margin: 0 auto;
+  width: 700px;
+  background: rgba(255, 255, 255, 0.795);
+  line-height: 40px;
+  padding: 0 20px;
+}
+
+.memo span {
+  color: brown;
+  border-bottom: black solid 1px;
+}
+
+.ranking {
+  font-size: 30px;
+  font-family: cursive;
+  text-align: center;
+  padding: 50px 0;
+  color: rgb(29, 29, 29);
+}
+
+@media screen and (max-width: 768px) {
+  .sliderArea img {
+    height: 200px;
+  }
+
+  iframe {
+    width: 500px;
+  }
+
+  .memo {
+    width: 500px;
+  }
+
+  .music {
+    background-size: cover;
+  }
+
+
+  
+  .menu {
+    display: block;
+  }
+
+  .bar {
+    margin-bottom: 30px;
+  }
+
+  .menu img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .head-list {
+    display: none;
+  }
+
+  .head .head-p1{
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #navArea {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .menu {
+    width: 60%;
+  }
+
+  #category {
+    width: 80%;
+  }
+}
+
+/* ハンバーガーメニュー */
+
+nav {
+  display: block;
+  position: fixed;
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  transition: all .5s;
+  z-index: -1;
+  opacity: 0;
+}
+.open nav {
+  left: 0px;
+  opacity: 1;
+  z-index: 9;
+}
+nav .inner {
+  margin-top: 50px;
+  padding: 25px;
+}
+nav .inner ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav .inner ul li {
+  position: relative;
+  margin: 0;
+  border-bottom: 1px solid #333;
+}
+nav .inner ul li a {
+  display: block;
+  color: #333;
+  font-size: 14px;
+  padding: 1em;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+nav .inner ul li a:hover {
+  background: #e4e4e4;
+}
+@media screen and (max-width: 767px) {
+  nav {
+    left: -220px;
+    width: 100%;
+  }
+}
+/*============
+.toggle_btn
+=============*/
+.toggle_btn {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  transition: all .5s;
+  cursor: pointer;
+  z-index: 11;
+}
+.toggle_btn span {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 30px;
+  height: 2px;
+  background-color: #333;
+  border-radius: 4px;
+  transition: all .5s;
+}
+.toggle_btn span:nth-child(1) {
+  top: 4px;
+}
+.toggle_btn span:nth-child(2) {
+  top: 14px;
+}
+.toggle_btn span:nth-child(3) {
+  bottom: 4px;
+}
+.open .toggle_btn span {
+  background-color: rgb(54, 54, 54);
+}
+.open .toggle_btn span:nth-child(1) {
+  -webkit-transform: translateY(10px) rotate(-315deg);
+  transform: translateY(10px) rotate(-315deg);
+}
+.open .toggle_btn span:nth-child(2) {
+  opacity: 0;
+}
+.open .toggle_btn span:nth-child(3) {
+  -webkit-transform: translateY(-10px) rotate(315deg);
+  transform: translateY(-10px) rotate(315deg);
+}
+/*============
+#mask
+=============*/
+#mask {
+  display: none;
+  transition: all .5s;
+}
+.open #mask {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(218, 218, 218);
+  opacity: .9;
+  z-index: 3;
+  cursor: pointer;
+}
