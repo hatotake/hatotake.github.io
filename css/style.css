@@ -465,8 +465,8 @@ nav .inner ul li a:hover {
 =============*/
 .toggle_btn {
   display: block;
-  position: absolute;
-  top: -20px;
+  position: fixed;
+  top: 20px;
   right: 30px;
   width: 30px;
   height: 30px;
