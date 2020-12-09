@@ -375,6 +375,10 @@ main {
   width: 50px;
   height: 50px;
 }
+	
+.toggle_btn {
+  top: 5px;
+}
 
 }
 
