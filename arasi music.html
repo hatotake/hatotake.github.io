@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+
+
+  <title>嵐</title>
+
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="head d-flex">
+        <div class="head-p1 d-flex">
+          <img src="css/logo.png" alt="">
+          <p>ARASHI</p>
+        </div>
+        <div class="head-list">
+          <ul class="d-flex">
+            <li><a href="arasi.html">HOME</a></li>
+            <li><a href="arasi member.html">MEMBER</a></li>
+            <li><a href="#">MUSIC</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="navArea">
+
+        <nav>
+          <div class="inner">
+            <ul>
+              <li><a href="arasi.html">HOME</a></li>
+              <li><a href="arasi member.html">MEMBER</a></li>
+              <li><a href="arasi music.html">MUSIC</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+          </div>
+        </nav>
+      
+        <div class="toggle_btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      
+        <div id="mask"></div>
+      
+      </div>
+    </header>
+
+    <main>
+
+      <div class="music">
+        <h1>Music</h1>
+
+        <p class="music-p1">ARASHI Music<br>Ranking BEST 3 <span>↓</span></p>
+
+        <div class="best">
+          <p class="ranking">第3位</p>
+          <iframe width="700" height="315" src="https://www.youtube.com/embed/PhSdewBIQsc" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+            <p class="memo"><span>HAYATO memo</span><br>第3位に選んだのはこの曲！【Turning Up】 嵐が活動休止を発表してからリリースされた曲ということもあり、聞いていても嵐の”これから”というまさにTurning Upの意味がこめられた歌詞がとても印象的で、身体が思わずリズムに乘ってしまうポップソング。メンタル的に少し気持ちを切り替えたいときに聞いたりするとモチベーション上がります。</p>
+        </div>
+
+        <div class="best">
+          <p class="ranking">第2位</p>
+          <iframe width="700" height="315" src="https://www.youtube.com/embed/f21KrWqxJqM" frameborder="0"
+            allowfullscreen>
+          </iframe>
+          <p class="memo"><span>HAYATO memo</span><br>第2位に選んだのはこの曲！【Party Staters】2020年に発売されたアルバムの一曲目にふさわしいとても楽しい曲。個人的な感想としてはＣメロのメンバー同士の掛け合いがいままで聞いてた嵐の曲の中でも珍しいなと感じ、とても新鮮な気持ちになりました。イメージとしては、とても良い天気の休日の朝に流れていたらもう最高ですね。</p>
+
+
+        </div>
+
+        <div class="best">
+          <p class="ranking">第1位</p>
+                  <iframe width="700" height="315" src="https://www.youtube.com/embed/ETLT0WXFX1E" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                    <p class="memo"><span>HAYATO memo</span><br>第1位に選んだのはこの曲！【カイト】2020年世界で衝撃的な出来事が起きました。コロナウイルスによる感染です。人々が恐怖に襲われた中、嵐がリリースしたこの曲はそんな恐怖から人々に手を差し伸べて救ってくれるような曲で、希望を与えてくれる音楽ていうのはこういう音楽なんだなと思いました。”君の夢よ 叶えと願う 溢れ出す ラル ラリ ラ” ストレートな歌詞から伝わる背中をそっと押してくれる曲。嵐の曲は本当に全部いい曲で今の気持ちで順位をつけるならこのようなランキングになりました。</p>
+
+        </div>
+
+
+
+      </div>
+
+
+
+    </main>
+    <footer>
+
+    </footer>
+
+  </div>
+
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    (function($) {
+      var $nav   = $('#navArea');
+      var $btn   = $('.toggle_btn');
+      var $mask  = $('#mask');
+      var open   = 'open'; // class
+      // menu open close
+      $btn.on( 'click', function() {
+        if ( ! $nav.hasClass( open ) ) {
+          $nav.addClass( open );
+        } else {
+          $nav.removeClass( open );
+        }
+      });
+      // mask close
+      $mask.on('click', function() {
+        $nav.removeClass( open );
+      });
+    } )(jQuery);
+    
+    </script>
+
+
+
+</body>
