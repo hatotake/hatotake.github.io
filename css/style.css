@@ -430,7 +430,7 @@ nav {
   z-index: 9;
 }
 nav .inner {
-  margin-top: 50px;
+  margin-top: 30px;
   padding: 25px;
 }
 nav .inner ul {
@@ -528,7 +528,5 @@ nav .inner ul li a:hover {
 }
 
 @media screen and (max-width: 768px) {
-.toggle_btn {
-  top: 5px;
-}
+
 }
