@@ -145,7 +145,7 @@ main {
 
 .member {
   height: 1250px;
-  background-image: url(member-bg3.jpg);
+  background-image: url(https://github.com/hatotake/hatotake.github.io/blob/main/member-bg3.jpg?raw=true);
   background-position: bottom;
   background-size: cover;
   padding-bottom: 100px;
@@ -273,7 +273,7 @@ main {
 /* arasi music.html */
 
 .music {
-  background-image: url(music-bg2.jpg);
+  background-image: url(https://github.com/hatotake/hatotake.github.io/blob/main/music-bg2.jpg?raw=true);
   background-position: center;
   background-size: 100% 3000px;
   background-repeat: no-repeat;
