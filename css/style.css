@@ -526,3 +526,9 @@ nav .inner ul li a:hover {
   z-index: 3;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+.toggle_btn {
+  top: 5px;
+}
+}
