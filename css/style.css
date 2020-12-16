@@ -338,6 +338,9 @@ main {
 .music iframe {
 	width:100%;
 }
+	.memo {
+		width:100%;
+}
 }
 
 @media screen and (max-width: 768px) {
