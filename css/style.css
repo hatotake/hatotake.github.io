@@ -333,19 +333,7 @@ main {
   color: rgb(29, 29, 29);
 }
 
-@media screen and (max-width: 480px) {
-	
-.suv-div1 p {
-	font-size: 20px;
-}
-	
-.music iframe {
-	width:95%;
-}
-.memo {
-	width:95%;
-}
-}
+
 
 @media screen and (max-width: 768px) {
   .sliderArea img {
@@ -403,6 +391,20 @@ main {
   top: 5px;
 }
 
+}
+
+@media screen and (max-width: 480px) {
+	
+.suv-div1 p {
+	font-size: 20px;
+}
+	
+.music iframe {
+	width:95%;
+}
+.memo {
+	width:95%;
+}
 }
 
 @media screen and (min-width: 768px) {
