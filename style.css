@@ -367,6 +367,21 @@ main {
   }
 }
 
+
+@media screen and (max-width: 480px) {
+	
+.suv-div1 p {
+	font-size: 20px;
+}
+	
+iframe {
+	width:95%;
+}
+.memo {
+	width:95%;
+}
+}
+
 @media screen and (min-width: 768px) {
   #navArea {
     display: none;
